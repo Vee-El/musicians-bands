@@ -19,7 +19,7 @@ describe('Band and Musician Models', () => {
             genre: 'Rock' 
         });
         expect(user1.name).toBe('Queen');
-        expext(user1.create).toBe('Rock');
+        expect(user1.genre).toBe('Rock');
     });
 
     test('can create a Musician', async () => {
